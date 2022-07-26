@@ -1,0 +1,61 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+
+<button class="button" onclick="window.location.href='voltage.html';">1h</button> 
+<button class="button" onclick="window.location.href='voltage.html';">2h</button> 
+<button class="button" onclick="window.location.href='voltage.html';">6h</button> 
+<button class="button" onclick="window.location.href='voltage.html';">12h</button> 
+<button class="button" onclick="window.location.href='voltage.html';">24h</button> 
+
+
+<table id="customers">
+	<tr>
+    <th>Time</th>
+    <th>Value (V)</th>
+  </tr>
+  <tr>
+    <td>0m</td>
+    <td>12.09V</td>
+  </tr>
+  <tr>
+    <td>5m</td>
+    <td>12.08V</td>
+  </tr>
+  <tr>
+    <td>10m</td>
+    <td>12.08V</td>
+  </tr>
+  <tr>
+    <td>15m</td>
+    <td>12.06V</td>
+  </tr>
+</table>
+</body>
